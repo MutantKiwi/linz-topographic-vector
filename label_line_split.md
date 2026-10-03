@@ -22,6 +22,11 @@ makes the line double back on itself. QGIS then either bends the text around
 the join, squeezes characters into the corner, or fails to place the label at
 all.
 
+<img width="535" height="278" alt="image" src="https://github.com/user-attachments/assets/4a7101ed-e951-41ca-b620-e1c898af172c" />
+
+<img width="852" height="484" alt="image" src="https://github.com/user-attachments/assets/12467b08-d464-4d6c-81d7-7559b6a31e92" />
+
+
 Removing the joining segment at render time fixes the placement without
 editing the data. The source layer stays as delivered, and the fix is applied
 again automatically whenever the data is refreshed.
