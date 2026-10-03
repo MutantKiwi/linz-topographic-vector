@@ -1,4 +1,4 @@
-# rail-line-tunnel
+# Fix rail-line attributes to add tunnels
 
 Marks the tunnel sections of the Topo50 railway lines and styles the result in
 QGIS.
