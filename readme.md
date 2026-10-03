@@ -7,7 +7,8 @@ A hand-drawn style rock symbol for NZ Topo50, baked into geometry.
 towards the land, imitating the rock symbol on the printed Topo50 maps. Because
 the symbol is stored as geometry, QGIS only needs a plain black line to draw it.
 
-![Preview](rock_line_carto_preview.png)
+<img width="1061" height="721" alt="image" src="https://github.com/user-attachments/assets/da9dab58-de66-4203-8716-9b1fed0c18dc" />
+
 
 ## What you need
 
