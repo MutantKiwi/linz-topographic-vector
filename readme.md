@@ -1,4 +1,4 @@
-# rock_line_carto
+# Creating rock line for LINZ Topo50
 
 A hand-drawn style rock symbol for NZ Topo50, baked into geometry.
 
