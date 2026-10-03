@@ -22,7 +22,11 @@ makes the line double back on itself. QGIS then either bends the text around
 the join, squeezes characters into the corner, or fails to place the label at
 all.
 
+From
+
 <img width="535" height="278" alt="image" src="https://github.com/user-attachments/assets/4a7101ed-e951-41ca-b620-e1c898af172c" />
+
+To
 
 <img width="852" height="484" alt="image" src="https://github.com/user-attachments/assets/12467b08-d464-4d6c-81d7-7559b6a31e92" />
 
