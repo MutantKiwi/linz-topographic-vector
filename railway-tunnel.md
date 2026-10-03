@@ -3,8 +3,7 @@
 Marks the tunnel sections of the Topo50 railway lines and styles the result in
 QGIS.
 
-`railway_line.parquet` has no tunnel information, and its features are long (up
-to 346 km), so a tunnel cannot be flagged on a whole feature. `railway_tunnel.py`
+`railway_line.parquet` has no tunnel information, and its features are long, so a tunnel cannot be flagged on a whole feature. `railway_tunnel.py`
 splits each railway line at the tunnel portals and sets `subtype = 'tunnel'` on
 the sections inside a tunnel. The result is `railway_line_tunnel.parquet`.
 
