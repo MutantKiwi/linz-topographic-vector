@@ -4,7 +4,7 @@ A QGIS expression for the label **Geometry Generator** that removes the sharp
 "joining" segment from a label line, so curved text is placed along two clean
 lines instead of being forced around a hairpin.
 
-Code created by Alan Cheung
+*Code created by Alan Cheung*
 
 ## Summary
 
