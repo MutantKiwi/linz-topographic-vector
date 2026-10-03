@@ -68,7 +68,9 @@ with_variable('d2', line_locate_point($geometry, end_point(@join_seg)),
    type to **LineString / MultiLineString**.
 4. Click Apply.
 
-Requires QGIS 3.28 or later (for `geometries_to_array`).
+<img width="666" height="1297" alt="image" src="https://github.com/user-attachments/assets/6b187f89-f1ec-4c2e-8536-fbca94e513f1" />
+
+Requires QGIS 3.28 or later (for `geometries_to_array`). Prefer QGIS 4.xx or later
 
 ## How it works
 
