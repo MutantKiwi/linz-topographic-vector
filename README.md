@@ -24,6 +24,7 @@ Start here. [download.md](download.md) covers:
 | [rock_line_carto.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_line_carto.md) | Builds a hand-drawn style rock symbol: a jagged rock outline with irregular ticks pointing towards the land, baked into a new layer. | A QGIS hashed line gives uniform ticks. The printed map's rock symbol is irregular, so it is generated as geometry instead. |
 | [railway_tunnel.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/railway_tunnel.md) | Splits the railway lines at tunnel portals, sets `subtype = 'tunnel'` on the tunnel sections, and gives the QGIS rules for single track, multiple track and tunnel. | `railway_line` has no tunnel attribute and its features are too long to flag as a whole, so tunnels could not be drawn differently. |
 | [label_line_split.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/label_line_split.md) | A QGIS label Geometry Generator expression that removes the sharp joining segment from a label line. | Curved text placement fails or bends around the corner where a label line doubles back on itself. |
+| [label_word_spacing.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/label_word_spacing.md) | Restores the gap between words in curved place names (for example "WaitahaCove") by using the project's own font and, for curved labels only (`text_bend = 7`), fitting text to its line by character spacing instead of word spacing. | Curved labels are fitted to the exact length of their label line. With the wrong font or word-spacing fitting, the space between words is squeezed to nothing. Limiting the change to curved text stops stacked labels such as "Houghton / Bay" being spread out. |
 
 ## Typical order of work
 
@@ -32,10 +33,12 @@ Start here. [download.md](download.md) covers:
 3. Create the rock line layer and style it ([rock_line_carto.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_line_carto.md)).
 4. Create the railway tunnel layer and apply the rule-based style ([railway_tunnel.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/railway_tunnel.md)).
 5. Apply the label line expression to fix curved text placement ([label_line_split.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/label_line_split.md)).
+6. Fix the font and word spacing on the text layer ([label_word_spacing.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/label_word_spacing.md)).
 
 ## Requirements
 
-- QGIS 3.28 or later.
+- QGIS 3.28 or later. The word spacing fix needs QGIS 4.x, which has the
+  fit-to-line curved label modes.
 - Docker, for the container download.
 - `wget.exe` on the PATH, for the batch script.
 - Python 3.10 or later with `geopandas`, `shapely` 2.x and `pyarrow`, for the
