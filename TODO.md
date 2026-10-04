@@ -33,6 +33,14 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 
 <img width="177" height="387" alt="image" src="https://github.com/user-attachments/assets/bc7c2924-0573-4e16-a8d0-d35a3221b972" />
 
+- [ ] structure_poly
+
+drydock
+fish_farm
+marine_farm
+reservoir
+tank/fuel
+tank/water
 
 ## Transport
 
