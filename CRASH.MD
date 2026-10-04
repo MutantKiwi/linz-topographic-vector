@@ -150,24 +150,3 @@ project's `symbol` folder has SVGs for most Topo50 point symbols.
 Install the eight `NimbusSansLINZ-*.otf` files from the project folder (select
 them, right-click, **Install for all users**) and restart QGIS.
 
-## Reporting it
-
-If the crash can be reproduced, report it on the QGIS issue tracker
-(<https://github.com/qgis/QGIS/issues>) with:
-
-- The crash report above.
-- The two layer names and the fact that they combine font marker symbols with
-  labels.
-- Which workaround, if any, stopped it.
-
-## How to investigate a QGIS crash in general
-
-1. **Crash dialog.** Use **Copy Report** in the "QGIS unexpectedly ended"
-   dialog. The top lines of the stack trace name the area at fault.
-2. **Windows Event Viewer.** If there was no dialog, look in Windows Logs >
-   Application for an Error naming `qgis-bin.exe`. It gives the faulting module
-   and exception code.
-3. **Reproduce and narrow down.** Note the last action before the crash and
-   undo the most recent change.
-4. **Rule out plugins.** Start with `qgis --noplugins` from the OSGeo4W Shell.
-5. **Rule out the profile.** Try a new profile under Settings > User Profiles.
