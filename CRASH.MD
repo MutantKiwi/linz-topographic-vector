@@ -1,4 +1,4 @@
-# Crash reports with th ehelp of Claude
+# Crash reports with the help of Claude
 
 
 # 1. QGIS crash: font marker symbols with labels
