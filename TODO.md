@@ -19,6 +19,9 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 - [ ] mine_opencast
 - [ ] contour_number
 
+<img width="227" height="101" alt="image" src="https://github.com/user-attachments/assets/cf33fb89-58d8-4dcb-963f-d3dcba377918" />
+
+
 ## Structures
 
 - [ ] structure_point
