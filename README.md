@@ -17,6 +17,8 @@ This project is not endorsed and/or supported by Toitū Te Whenua Land Informati
 
 [Crash review](CRASH.MD)
 
+Link to the [Atlas Grids](atlas_grids/atlas_grids.md)
+
 ## Getting the data
 
 Start here. [download.md](download.md) covers:
