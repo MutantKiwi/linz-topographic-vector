@@ -10,6 +10,8 @@ The A3 atlas grid covers New Zealand in 1,575 sheets of 12 km by 18 km.
 `split_atlas_grid.py` cuts that grid into 82 smaller grids: 16 regions and 66
 districts. Each file holds only the sheets containing land of that area.
 
+See [Local Authority Grids](https://s3.dualstack.ap-southeast-2.amazonaws.com/fun.mutant.kiwi/topo50-a3-atlas-per-council.html) for graphic representation.
+
 Every sheet in a file carries its own page number and the finished text for its
 four adjoining-sheet labels. The atlas layout reads those columns directly, so
 the layout needs no page-counting expressions.
