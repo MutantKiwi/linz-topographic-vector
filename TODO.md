@@ -24,10 +24,6 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 - [ ] structure_point
 - [ ] structure_line
 
-## Rock line
-
-- [x] Rock line - [rock_line_carto.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_line_carto.md)
-
 ## Transport
 
 ### Train line
@@ -53,6 +49,10 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 - [ ] heliport
 
 ## Landcover
+
+### Rock line
+
+- [x] Rock line - [rock_line_carto.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_line_carto.md)
 
 ### place_point
 
