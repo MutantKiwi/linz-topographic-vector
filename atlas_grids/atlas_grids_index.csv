@@ -1,0 +1,84 @@
+series,area_name,file,pages
+regional,Northland Region,regional_Northland_Region.parquet,103
+regional,Auckland,regional_Auckland.parquet,65
+regional,Waikato Region,regional_Waikato_Region.parquet,164
+regional,Bay of Plenty Region,regional_Bay_of_Plenty_Region.parquet,92
+regional,Gisborne Region,regional_Gisborne_Region.parquet,63
+regional,Hawke's Bay Region,regional_Hawkes_Bay_Region.parquet,99
+regional,Taranaki Region,regional_Taranaki_Region.parquet,53
+regional,Manawatū-Whanganui Region,regional_Manawatu_Whanganui_Region.parquet,139
+regional,Wellington Region,regional_Wellington_Region.parquet,55
+regional,West Coast Region,regional_West_Coast_Region.parquet,163
+regional,Canterbury Region,regional_Canterbury_Region.parquet,270
+regional,Otago Region,regional_Otago_Region.parquet,188
+regional,Southland Region,regional_Southland_Region.parquet,213
+regional,Tasman Region,regional_Tasman_Region.parquet,79
+regional,Nelson Region,regional_Nelson_Region.parquet,9
+regional,Marlborough Region,regional_Marlborough_Region.parquet,80
+territorial,Far North District,territorial_Far_North_District.parquet,61
+territorial,Whangarei District,territorial_Whangarei_District.parquet,32
+territorial,Kaipara District,territorial_Kaipara_District.parquet,33
+territorial,Thames-Coromandel District,territorial_Thames_Coromandel_District.parquet,27
+territorial,Hauraki District,territorial_Hauraki_District.parquet,17
+territorial,Waikato District,territorial_Waikato_District.parquet,36
+territorial,Matamata-Piako District,territorial_Matamata_Piako_District.parquet,16
+territorial,Hamilton City,territorial_Hamilton_City.parquet,3
+territorial,Waipa District,territorial_Waipa_District.parquet,14
+territorial,Ōtorohanga District,territorial_Otorohanga_District.parquet,20
+territorial,South Waikato District,territorial_South_Waikato_District.parquet,15
+territorial,Waitomo District,territorial_Waitomo_District.parquet,33
+territorial,Taupo District,territorial_Taupo_District.parquet,47
+territorial,Western Bay of Plenty District,territorial_Western_Bay_of_Plenty_District.parquet,21
+territorial,Tauranga City,territorial_Tauranga_City.parquet,7
+territorial,Rotorua District,territorial_Rotorua_District.parquet,24
+territorial,Whakatane District,territorial_Whakatane_District.parquet,34
+territorial,Kawerau District,territorial_Kawerau_District.parquet,2
+territorial,Ōpōtiki District,territorial_Opotiki_District.parquet,29
+territorial,Gisborne District,territorial_Gisborne_District.parquet,63
+territorial,Wairoa District,territorial_Wairoa_District.parquet,37
+territorial,Hastings District,territorial_Hastings_District.parquet,46
+territorial,Napier City,territorial_Napier_City.parquet,4
+territorial,Central Hawke's Bay District,territorial_Central_Hawkes_Bay_District.parquet,27
+territorial,New Plymouth District,territorial_New_Plymouth_District.parquet,25
+territorial,Stratford District,territorial_Stratford_District.parquet,21
+territorial,South Taranaki District,territorial_South_Taranaki_District.parquet,32
+territorial,Ruapehu District,territorial_Ruapehu_District.parquet,52
+territorial,Whanganui District,territorial_Whanganui_District.parquet,23
+territorial,Rangitikei District,territorial_Rangitikei_District.parquet,39
+territorial,Manawatu District,territorial_Manawatu_District.parquet,23
+territorial,Palmerston North City,territorial_Palmerston_North_City.parquet,6
+territorial,Tararua District,territorial_Tararua_District.parquet,34
+territorial,Horowhenua District,territorial_Horowhenua_District.parquet,11
+territorial,Kapiti Coast District,territorial_Kapiti_Coast_District.parquet,11
+territorial,Porirua City,territorial_Porirua_City.parquet,3
+territorial,Upper Hutt City,territorial_Upper_Hutt_City.parquet,10
+territorial,Lower Hutt City,territorial_Lower_Hutt_City.parquet,7
+territorial,Wellington City,territorial_Wellington_City.parquet,7
+territorial,Masterton District,territorial_Masterton_District.parquet,19
+territorial,Carterton District,territorial_Carterton_District.parquet,15
+territorial,South Wairarapa District,territorial_South_Wairarapa_District.parquet,22
+territorial,Tasman District,territorial_Tasman_District.parquet,79
+territorial,Nelson City,territorial_Nelson_City.parquet,9
+territorial,Marlborough District,territorial_Marlborough_District.parquet,80
+territorial,Kaikoura District,territorial_Kaikoura_District.parquet,22
+territorial,Buller District,territorial_Buller_District.parquet,61
+territorial,Grey District,territorial_Grey_District.parquet,27
+territorial,Westland District,territorial_Westland_District.parquet,93
+territorial,Hurunui District,territorial_Hurunui_District.parquet,60
+territorial,Waimakariri District,territorial_Waimakariri_District.parquet,21
+territorial,Christchurch City,territorial_Christchurch_City.parquet,17
+territorial,Selwyn District,territorial_Selwyn_District.parquet,52
+territorial,Ashburton District,territorial_Ashburton_District.parquet,48
+territorial,Timaru District,territorial_Timaru_District.parquet,29
+territorial,Mackenzie District,territorial_Mackenzie_District.parquet,52
+territorial,Waimate District,territorial_Waimate_District.parquet,28
+territorial,Chatham Islands Territory,,0
+territorial,Waitaki District,territorial_Waitaki_District.parquet,62
+territorial,Central Otago District,territorial_Central_Otago_District.parquet,65
+territorial,Queenstown-Lakes District,territorial_Queenstown_Lakes_District.parquet,65
+territorial,Dunedin City,territorial_Dunedin_City.parquet,32
+territorial,Clutha District,territorial_Clutha_District.parquet,45
+territorial,Southland District,territorial_Southland_District.parquet,207
+territorial,Gore District,territorial_Gore_District.parquet,14
+territorial,Invercargill City,territorial_Invercargill_City.parquet,8
+territorial,Auckland,territorial_Auckland.parquet,65
