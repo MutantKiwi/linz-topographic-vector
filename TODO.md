@@ -22,7 +22,14 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 ## Structures
 
 - [ ] structure_point
+
+<img width="139" height="455" alt="image" src="https://github.com/user-attachments/assets/015fe5ca-55dc-4dc2-bd3c-5c1af2684a3f" />
+
+
 - [ ] structure_line
+
+<img width="177" height="387" alt="image" src="https://github.com/user-attachments/assets/bc7c2924-0573-4e16-a8d0-d35a3221b972" />
+
 
 ## Transport
 
