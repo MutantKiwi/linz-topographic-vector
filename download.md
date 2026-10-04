@@ -68,6 +68,7 @@ for %%D in (
     nztopo50_map_sheet
     coastline
     nztopo50_carto_text
+    nztopo50_carto_symbol
     nz_topo50_dms_grid
     nz_topo50_grid
     bridge_line
