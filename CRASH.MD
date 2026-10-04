@@ -150,13 +150,13 @@ project's `symbol` folder has SVGs for most Topo50 point symbols.
 Install the eight `NimbusSansLINZ-*.otf` files from the project folder (select
 them, right-click, **Install for all users**) and restart QGIS.
 
+#
+
+
 # 2. QGIS crash: PDF export with label masks
 
 Record of a QGIS crash when exporting the NZ Topo50 print layout to PDF, the
 likely cause, and what to try.
-
-This is a separate crash from the one in [crash.md](crash.md) (font marker
-symbols with labels).
 
 ## Summary
 
