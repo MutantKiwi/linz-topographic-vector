@@ -12,6 +12,7 @@ to bring the rendered map closer to the printed Topo50 sheets.
 This project is not endorsed and/or supported by Toitū Te Whenua Land Information New Zealand
 
 [Todo List](TODO.md)
+[Nice to Have](NICE-TO-HAVE.MD)
 
 ## Getting the data
 
