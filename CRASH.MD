@@ -295,7 +295,10 @@ Fill in after testing.
 
 | Test | Result |
 |---|---|
-| 1. Masks off | |
+| 1. Masks off | YES |
 | 2. 150 dpi with masks | |
-| 3. Always export as vectors | |
+| 3. Always export as vectors | YES |
 | 4. Grid mask only | |
+
+Workaround seems to export as vector only
+
