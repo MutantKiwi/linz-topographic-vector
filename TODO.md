@@ -40,7 +40,7 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 - [ ] Embankments
 - [ ] Bridges
 - [x] Tunnels - [railway_tunnel.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/railway_tunnel.md)
-- [x] Single/double line symbology
+- [x] Single/double line symbology - [railway_tunnel.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/railway_tunnel.md)
 
 ### Roads
 
