@@ -36,11 +36,17 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 - [ ] structure_poly
 
 drydock
+
 fish_farm
+
 marine_farm
+
 reservoir
+
 tank/fuel
+
 tank/water
+
 
 ## Transport
 
