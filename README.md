@@ -43,7 +43,7 @@ Start here. [download.md](download.md) covers:
 
 ## Requirements
 
-- QGIS 3.28 or later. The word spacing fix needs QGIS 4.x, which has the
+- QGIS 3.28 or later (QGIS 4.x preferred). The word spacing fix needs QGIS 4.x, which has the
   fit-to-line curved label modes.
 - Docker, for the container download.
 - `wget.exe` on the PATH, for the batch script.
