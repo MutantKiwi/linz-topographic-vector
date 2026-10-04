@@ -1,4 +1,4 @@
-# linz-topographic-vector
+# Working with LINZ topographic vector data 
 
 Notes, scripts and QGIS styling for working with the Toitū Te Whenua Land Information New Zealand NZTopo50 vector
 data and QGIS project.
