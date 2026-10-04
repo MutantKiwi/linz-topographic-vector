@@ -6,10 +6,10 @@ data and QGIS project.
 <img width="1074" height="866" alt="image" src="https://github.com/user-attachments/assets/c85cb3d6-8bb0-451a-857a-efbb6cb93c18" />
 
 LINZ publishes the Topo50 map as a QGIS project backed by GeoParquet layers.
-This repository is an unofficial project that records how to download that project and the additions made
+This repository is an 'unofficial project' that records how to download that project and the additions made
 to bring the rendered map closer to the printed Topo50 sheets.
 
-It is not endorsed and/or supported by Toitū Te Whenua Land Information New Zealand
+This project is not endorsed and/or supported by Toitū Te Whenua Land Information New Zealand
 
 [Todo List](TODO.md)
 
