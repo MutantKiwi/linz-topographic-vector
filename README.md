@@ -1,11 +1,13 @@
 # linz-topographic-vector
 
-Notes, scripts and QGIS styling for working with the LINZ NZ Topo50 vector
+Notes, scripts and QGIS styling for working with the Toitū Te Whenua Land Information New Zealand NZTopo50 vector
 data and QGIS project.
 
 LINZ publishes the Topo50 map as a QGIS project backed by GeoParquet layers.
-This repository records how to download that project, and the additions made
+This repository is an unofficial project that records how to download that project and the additions made
 to bring the rendered map closer to the printed Topo50 sheets.
+
+It is not endorsed and/or supported by Toitū Te Whenua Land Information New Zealand
 
 ## Getting the data
 
