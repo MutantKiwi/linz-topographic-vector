@@ -9,7 +9,7 @@ to bring the rendered map closer to the printed Topo50 sheets.
 
 It is not endorsed and/or supported by Toitū Te Whenua Land Information New Zealand
 
-https://github.com/MutantKiwi/linz-topographic-vector/blob/main/TODO.md
+[Todo List](TODO.md)
 
 ## Getting the data
 
