@@ -21,6 +21,9 @@ Link to the [Atlas Grids](atlas_grids/atlas_grids.md)
 
 Link to [A3 Atlas Creator PlugIn](A3-Atlas-Creator/README.MD)
 
+<img width="559" height="883" alt="image" src="https://github.com/user-attachments/assets/74a69078-cf00-4c78-b68e-73e54e2abd7b" />
+
+
 ## Getting the data
 
 Start here. [download.md](download.md) covers:
