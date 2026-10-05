@@ -36,6 +36,8 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 
 - [ ] structure_line
 
+https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_line.qml
+
 <img width="177" height="387" alt="image" src="https://github.com/user-attachments/assets/bc7c2924-0573-4e16-a8d0-d35a3221b972" />
 
 - [ ] structure_poly
