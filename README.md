@@ -19,6 +19,8 @@ This project is not endorsed and/or supported by Toitū Te Whenua Land Informati
 
 Link to the [Atlas Grids](atlas_grids/atlas_grids.md)
 
+Link to [A3 Atlas Creator PlugIn](A3-Atlas-Creator/README.MD)
+
 ## Getting the data
 
 Start here. [download.md](download.md) covers:
