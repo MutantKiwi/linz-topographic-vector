@@ -150,7 +150,7 @@ n, s, e, w: `adj_<d>`, `adj_<d>_name`, `adj_<d>_page`, `adj_<d>_label`.
 
 ## What has been tested
 
-Tested headless on QGIS 3.34 (Qt 5):
+Tested headless on QGIS 3.34 (Qt 5) and Windows v 4.2.2 GUI:
 
 - Page numbering reproduces all 82 existing regional and territorial grid
   files exactly (4,084 pages).
@@ -160,14 +160,6 @@ Tested headless on QGIS 3.34 (Qt 5):
   left-hand or right-hand page, and the label-mask switch with restore.
 - The dialog, run end to end.
 
-Not tested:
-
-- **QGIS 4 / Qt 6.** The code is written to run on both, but it has not been
-  run on QGIS 4.
-- **Writing Parquet.** The test machine's QGIS could not write Parquet, so only
-  the GeoPackage fallback was exercised.
-- **Your real templates and the full Topo50 project.**
-- **Windows.**
 
 ## Limits
 
