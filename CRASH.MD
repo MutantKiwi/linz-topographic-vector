@@ -297,5 +297,5 @@ Fill in after testing.
 | 3. Always export as vectors | YES |
 | 4. Grid mask only | |
 
-Workaround seems to export as vector only
+Current workaround seems to export as vector only
 
