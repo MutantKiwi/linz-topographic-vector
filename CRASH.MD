@@ -3,12 +3,9 @@
 
 # 1. QGIS crash: font marker symbols with labels
 
-Record of a QGIS crash in the NZ Topo50 project, what caused it, and the
-workarounds.
-
 ## Summary
 
-QGIS 4.2.2 crashes with an access violation while rendering the map. The crash
+QGIS 4.2.2 crashed with an access violation while rendering the map. The crash
 happens when QGIS measures a **font marker** symbol so that labels can avoid
 it, on a background render thread.
 
