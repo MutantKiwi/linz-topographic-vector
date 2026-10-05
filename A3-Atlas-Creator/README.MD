@@ -3,6 +3,8 @@
 A QGIS plugin that builds a Topo50 A3 atlas for any area and exports it as one
 PDF, using separate layouts for left-hand and right-hand pages.
 
+
+
 ## Summary
 
 1. **Area.** Pick one or more polygons. The plugin finds the Topo50 A3 sheets
