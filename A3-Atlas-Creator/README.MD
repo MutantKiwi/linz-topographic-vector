@@ -1,13 +1,13 @@
 # Topo50 Atlas Builder
 
-A QGIS plugin that builds a Topo50 A3 atlas for any area and exports it as one
+A QGIS plugin that builds a NZTopo50 A3 atlas for any area and exports it as one
 PDF, using separate layouts for left-hand and right-hand pages.
 
 
 
 ## Summary
 
-1. **Area.** Pick one or more polygons. The plugin finds the Topo50 A3 sheets
+1. **Area.** Pick one or more polygons. The plugin finds the NZTopo50 A3 sheets
    (12 km x 18 km, 1:50,000) that cover them and writes a grid file with page
    numbers and adjoining-page labels.
 2. **Layouts.** It loads a right-hand and a left-hand layout template, points
