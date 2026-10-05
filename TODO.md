@@ -84,3 +84,8 @@ Status of the cartographic work on the 'unofficial NZTopo50 QGIS project.
 - [ ] cave
 - [ ] historic site
 - [ ] monument
+
+## Other
+
+- [ ] racecourses (https://data.linz.govt.nz/layer/50316-nz-racetrack-polygons-topo-150k/)
+
