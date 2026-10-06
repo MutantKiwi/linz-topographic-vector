@@ -40,7 +40,7 @@ Start here. [download.md](download.md) covers:
 | [label_word_spacing.md](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/label_word_spacing.md) | Restores the gap between words in curved place names (for example "WaitahaCove") by using the project's own font and, for curved labels only (`text_bend = 7`), fitting text to its line by character spacing instead of word spacing. | Curved labels are fitted to the exact length of their label line. With the wrong font or word-spacing fitting, the space between words is squeezed to nothing. Limiting the change to curved text stops stacked labels such as "Houghton / Bay" being spread out. |
 | [label_structure_line.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_line.qml) | QGIS Style file (QML) for structure_line features. | Missing from original repository |
 | [label_structure_poly.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_poly.qml) | QGIS Style file (QML) for structure_poly features. | Missing from original repository |
-| [label_structure_poly.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_crop.qml) | QGIS Style file (QML) for rock_crop features. | Missing from original repository (Download feature from LDS) |
+| [rock_crop.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_crop.qml) | QGIS Style file (QML) for rock_crop features. | Missing from original repository (Download feature from LDS) |
 
 ## Typical order of work
 
