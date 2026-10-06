@@ -91,5 +91,5 @@ https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_line.q
 ## Other
 
 - [ ] racecourses (https://data.linz.govt.nz/layer/50316-nz-racetrack-polygons-topo-150k/)
-- [ ] rock outcrops (https://docs.topo.linz.govt.nz/data-dictionary/tdd-class-rock_outcrop_pnt.html) and (https://data.linz.govt.nz/layer/50330-nz-rock-outcrop-points-topo-150k/)
+- [ ] rock outcrops (https://docs.topo.linz.govt.nz/data-dictionary/tdd-class-rock_outcrop_pnt.html) and (https://data.linz.govt.nz/layer/50330-nz-rock-outcrop-points-topo-150k/) rock_crop.qml
 
