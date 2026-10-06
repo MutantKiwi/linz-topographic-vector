@@ -1,0 +1,402 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="2">
+  <symbols>
+    <symbol name="Topo50 tunnel - rail" frame_rate="10" force_rhr="0" is_animated="0" type="line" clip_to_extent="1" alpha="1">
+      <data_defined_properties>
+        <Option type="Map">
+          <Option name="name" value="" type="QString"/>
+          <Option name="properties"/>
+          <Option name="type" value="collection" type="QString"/>
+        </Option>
+      </data_defined_properties>
+      <layer id="{79dae0c9-536c-47d2-b98a-765895996dc9}" class="SimpleLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="align_dash_pattern" value="0" type="QString"/>
+          <Option name="capstyle" value="flat" type="QString"/>
+          <Option name="customdash" value="1;0.5" type="QString"/>
+          <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="customdash_unit" value="MM" type="QString"/>
+          <Option name="dash_pattern_offset" value="0" type="QString"/>
+          <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+          <Option name="draw_inside_polygon" value="0" type="QString"/>
+          <Option name="joinstyle" value="bevel" type="QString"/>
+          <Option name="line_color" value="0,0,0,255" type="QString"/>
+          <Option name="line_style" value="solid" type="QString"/>
+          <Option name="line_width" value="0.1" type="QString"/>
+          <Option name="line_width_unit" value="MM" type="QString"/>
+          <Option name="offset" value="0" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="trim_distance_end" value="0" type="QString"/>
+          <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+          <Option name="trim_distance_start" value="0" type="QString"/>
+          <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+          <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+          <Option name="use_custom_dash" value="1" type="QString"/>
+          <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer id="{aa2156b7-12bd-4335-90aa-2d3cb9bdc3ff}" class="MarkerLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="average_angle_length" value="4" type="QString"/>
+          <Option name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="average_angle_unit" value="MM" type="QString"/>
+          <Option name="interval" value="3" type="QString"/>
+          <Option name="interval_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="interval_unit" value="MM" type="QString"/>
+          <Option name="offset" value="0" type="QString"/>
+          <Option name="offset_along_line" value="0" type="QString"/>
+          <Option name="offset_along_line_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_along_line_unit" value="MM" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="place_on_every_part" value="true" type="bool"/>
+          <Option name="placements" value="FirstVertex" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="rotate" value="1" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Topo50 tunnel - rail@1" frame_rate="10" force_rhr="0" is_animated="0" type="marker" clip_to_extent="1" alpha="1">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+          <layer id="{3b3cd2e5-4a39-405b-9b9d-96ed0693ff25}" class="SvgMarker" locked="0" pass="0" enabled="1">
+            <Option type="Map">
+              <Option name="angle" value="0" type="QString"/>
+              <Option name="color" value="35,35,35,255" type="QString"/>
+              <Option name="fixedAspectRatio" value="0" type="QString"/>
+              <Option name="horizontal_anchor_point" value="1" type="QString"/>
+              <Option name="name" value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxLjdtbSIgaGVpZ2h0PSIxLjdtbSIgdmlld0JveD0iLTAuODUgLTAuODUgMS43IDEuNyI+PHBhdGggZD0iTSAwIC0wLjc1IEEgMi41IDIuNSAwIDAgMSAwIDAuNzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwLjE1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4K" type="QString"/>
+              <Option name="offset" value="0,0" type="QString"/>
+              <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offset_unit" value="MM" type="QString"/>
+              <Option name="outline_color" value="0,0,0,255" type="QString"/>
+              <Option name="outline_width" value="0.15" type="QString"/>
+              <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="outline_width_unit" value="MM" type="QString"/>
+              <Option name="parameters"/>
+              <Option name="scale_method" value="diameter" type="QString"/>
+              <Option name="size" value="1.7" type="QString"/>
+              <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="size_unit" value="MM" type="QString"/>
+              <Option name="vertical_anchor_point" value="1" type="QString"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer id="{cba174b4-5ea1-437a-a020-8512039caee9}" class="MarkerLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="average_angle_length" value="4" type="QString"/>
+          <Option name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="average_angle_unit" value="MM" type="QString"/>
+          <Option name="interval" value="3" type="QString"/>
+          <Option name="interval_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="interval_unit" value="MM" type="QString"/>
+          <Option name="offset" value="0" type="QString"/>
+          <Option name="offset_along_line" value="0" type="QString"/>
+          <Option name="offset_along_line_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_along_line_unit" value="MM" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="place_on_every_part" value="true" type="bool"/>
+          <Option name="placements" value="LastVertex" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="rotate" value="1" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Topo50 tunnel - rail@2" frame_rate="10" force_rhr="0" is_animated="0" type="marker" clip_to_extent="1" alpha="1">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+          <layer id="{a4148206-b8ee-4da6-8358-41831448d942}" class="SvgMarker" locked="0" pass="0" enabled="1">
+            <Option type="Map">
+              <Option name="angle" value="180" type="QString"/>
+              <Option name="color" value="35,35,35,255" type="QString"/>
+              <Option name="fixedAspectRatio" value="0" type="QString"/>
+              <Option name="horizontal_anchor_point" value="1" type="QString"/>
+              <Option name="name" value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxLjdtbSIgaGVpZ2h0PSIxLjdtbSIgdmlld0JveD0iLTAuODUgLTAuODUgMS43IDEuNyI+PHBhdGggZD0iTSAwIC0wLjc1IEEgMi41IDIuNSAwIDAgMSAwIDAuNzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0icGFyYW0ob3V0bGluZSkgIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSJwYXJhbShvdXRsaW5lLXdpZHRoKSAwLjE1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4K" type="QString"/>
+              <Option name="offset" value="0,0" type="QString"/>
+              <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offset_unit" value="MM" type="QString"/>
+              <Option name="outline_color" value="0,0,0,255" type="QString"/>
+              <Option name="outline_width" value="0.15" type="QString"/>
+              <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="outline_width_unit" value="MM" type="QString"/>
+              <Option name="parameters"/>
+              <Option name="scale_method" value="diameter" type="QString"/>
+              <Option name="size" value="1.7" type="QString"/>
+              <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="size_unit" value="MM" type="QString"/>
+              <Option name="vertical_anchor_point" value="1" type="QString"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+    <symbol name="Topo50 tunnel - road" frame_rate="10" force_rhr="0" is_animated="0" type="line" clip_to_extent="1" alpha="1">
+      <data_defined_properties>
+        <Option type="Map">
+          <Option name="name" value="" type="QString"/>
+          <Option name="properties"/>
+          <Option name="type" value="collection" type="QString"/>
+        </Option>
+      </data_defined_properties>
+      <layer id="{c39fedd1-a8ec-4a8a-8b87-b2c6280eb63e}" class="SimpleLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="align_dash_pattern" value="0" type="QString"/>
+          <Option name="capstyle" value="flat" type="QString"/>
+          <Option name="customdash" value="1;0.5" type="QString"/>
+          <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="customdash_unit" value="MM" type="QString"/>
+          <Option name="dash_pattern_offset" value="0" type="QString"/>
+          <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+          <Option name="draw_inside_polygon" value="0" type="QString"/>
+          <Option name="joinstyle" value="bevel" type="QString"/>
+          <Option name="line_color" value="0,0,0,255" type="QString"/>
+          <Option name="line_style" value="solid" type="QString"/>
+          <Option name="line_width" value="0.15" type="QString"/>
+          <Option name="line_width_unit" value="MM" type="QString"/>
+          <Option name="offset" value="0.925" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="trim_distance_end" value="0" type="QString"/>
+          <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+          <Option name="trim_distance_start" value="0" type="QString"/>
+          <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+          <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+          <Option name="use_custom_dash" value="1" type="QString"/>
+          <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer id="{e792cb2e-f31f-4b49-841a-a9107ebdc6af}" class="SimpleLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="align_dash_pattern" value="0" type="QString"/>
+          <Option name="capstyle" value="flat" type="QString"/>
+          <Option name="customdash" value="1;0.5" type="QString"/>
+          <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="customdash_unit" value="MM" type="QString"/>
+          <Option name="dash_pattern_offset" value="0" type="QString"/>
+          <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+          <Option name="draw_inside_polygon" value="0" type="QString"/>
+          <Option name="joinstyle" value="bevel" type="QString"/>
+          <Option name="line_color" value="0,0,0,255" type="QString"/>
+          <Option name="line_style" value="solid" type="QString"/>
+          <Option name="line_width" value="0.15" type="QString"/>
+          <Option name="line_width_unit" value="MM" type="QString"/>
+          <Option name="offset" value="-0.925" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="trim_distance_end" value="0" type="QString"/>
+          <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+          <Option name="trim_distance_start" value="0" type="QString"/>
+          <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+          <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+          <Option name="use_custom_dash" value="1" type="QString"/>
+          <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+      <layer id="{70d34f7b-09f7-4bff-8355-2e2c13bf30bc}" class="MarkerLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="average_angle_length" value="4" type="QString"/>
+          <Option name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="average_angle_unit" value="MM" type="QString"/>
+          <Option name="interval" value="3" type="QString"/>
+          <Option name="interval_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="interval_unit" value="MM" type="QString"/>
+          <Option name="offset" value="0" type="QString"/>
+          <Option name="offset_along_line" value="0" type="QString"/>
+          <Option name="offset_along_line_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_along_line_unit" value="MM" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="place_on_every_part" value="true" type="bool"/>
+          <Option name="placements" value="FirstVertex" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="rotate" value="1" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Topo50 tunnel - road@2" frame_rate="10" force_rhr="0" is_animated="0" type="marker" clip_to_extent="1" alpha="1">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+          <layer id="{5a7117a9-a4c5-4659-8c7a-283dc21cb742}" class="SvgMarker" locked="0" pass="0" enabled="1">
+            <Option type="Map">
+              <Option name="angle" value="0" type="QString"/>
+              <Option name="color" value="35,35,35,255" type="QString"/>
+              <Option name="fixedAspectRatio" value="0" type="QString"/>
+              <Option name="horizontal_anchor_point" value="1" type="QString"/>
+              <Option name="name" value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyLjJtbSIgaGVpZ2h0PSIyLjJtbSIgdmlld0JveD0iLTEuMSAtMS4xIDIuMiAyLjIiPjxwYXRoIGQ9Ik0gMCAtMSBBIDIuNSAyLjUgMCAwIDEgMCAxIiBmaWxsPSJub25lIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICMwMDAwMDAiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMC4xNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+Cg==" type="QString"/>
+              <Option name="offset" value="0,0" type="QString"/>
+              <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offset_unit" value="MM" type="QString"/>
+              <Option name="outline_color" value="0,0,0,255" type="QString"/>
+              <Option name="outline_width" value="0.15" type="QString"/>
+              <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="outline_width_unit" value="MM" type="QString"/>
+              <Option name="parameters"/>
+              <Option name="scale_method" value="diameter" type="QString"/>
+              <Option name="size" value="2.2" type="QString"/>
+              <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="size_unit" value="MM" type="QString"/>
+              <Option name="vertical_anchor_point" value="1" type="QString"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+      <layer id="{baa01776-8594-44d4-8f1a-f3bd5b47b3db}" class="MarkerLine" locked="0" pass="0" enabled="1">
+        <Option type="Map">
+          <Option name="average_angle_length" value="4" type="QString"/>
+          <Option name="average_angle_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="average_angle_unit" value="MM" type="QString"/>
+          <Option name="interval" value="3" type="QString"/>
+          <Option name="interval_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="interval_unit" value="MM" type="QString"/>
+          <Option name="offset" value="0" type="QString"/>
+          <Option name="offset_along_line" value="0" type="QString"/>
+          <Option name="offset_along_line_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_along_line_unit" value="MM" type="QString"/>
+          <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+          <Option name="offset_unit" value="MM" type="QString"/>
+          <Option name="place_on_every_part" value="true" type="bool"/>
+          <Option name="placements" value="LastVertex" type="QString"/>
+          <Option name="ring_filter" value="0" type="QString"/>
+          <Option name="rotate" value="1" type="QString"/>
+        </Option>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <symbol name="@Topo50 tunnel - road@3" frame_rate="10" force_rhr="0" is_animated="0" type="marker" clip_to_extent="1" alpha="1">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </data_defined_properties>
+          <layer id="{026c996b-c140-446a-9297-f7c9eb292723}" class="SvgMarker" locked="0" pass="0" enabled="1">
+            <Option type="Map">
+              <Option name="angle" value="180" type="QString"/>
+              <Option name="color" value="35,35,35,255" type="QString"/>
+              <Option name="fixedAspectRatio" value="0" type="QString"/>
+              <Option name="horizontal_anchor_point" value="1" type="QString"/>
+              <Option name="name" value="base64:PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyLjJtbSIgaGVpZ2h0PSIyLjJtbSIgdmlld0JveD0iLTEuMSAtMS4xIDIuMiAyLjIiPjxwYXRoIGQ9Ik0gMCAtMSBBIDIuNSAyLjUgMCAwIDEgMCAxIiBmaWxsPSJub25lIiBzdHJva2U9InBhcmFtKG91dGxpbmUpICMwMDAwMDAiIHN0cm9rZS13aWR0aD0icGFyYW0ob3V0bGluZS13aWR0aCkgMC4xNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+Cg==" type="QString"/>
+              <Option name="offset" value="0,0" type="QString"/>
+              <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="offset_unit" value="MM" type="QString"/>
+              <Option name="outline_color" value="0,0,0,255" type="QString"/>
+              <Option name="outline_width" value="0.15" type="QString"/>
+              <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="outline_width_unit" value="MM" type="QString"/>
+              <Option name="parameters"/>
+              <Option name="scale_method" value="diameter" type="QString"/>
+              <Option name="size" value="2.2" type="QString"/>
+              <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option name="size_unit" value="MM" type="QString"/>
+              <Option name="vertical_anchor_point" value="1" type="QString"/>
+            </Option>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+  <textformats/>
+  <labelsettings/>
+  <legendpatchshapes/>
+  <symbols3d/>
+</qgis_style>
