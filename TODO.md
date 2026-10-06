@@ -65,7 +65,7 @@ https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_line.q
 
 - [ ] Over/under passes
 - [ ] Embankments
-- [ ] Bridges
+- [ ] Bridges (filter doesn't match attributes -  "bridge_use" = 'vehicle' and "lanes" = '2'). Try "type" = 'vehicle' (no lanes attribute)
 - [ ] Tunnels
 - [ ] State Highway symbol/marker (see nztopo50_carto_symbol > highway_shield)
 
