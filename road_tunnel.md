@@ -1,7 +1,7 @@
 # Road tunnel
 
 Marks the tunnel sections of the Topo50 roads and draws them with the Topo50
-tunnel symbol in QGIS.
+tunnel symbol in QGIS. See https://docs.topo.linz.govt.nz/data-dictionary/tdd-class-tunnel_cl.html 
 
 <img width="495" height="417" alt="image" src="https://github.com/user-attachments/assets/021ee864-a929-491c-9848-44f79fcf1b3d" />
 
