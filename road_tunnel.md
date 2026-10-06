@@ -64,7 +64,7 @@ python -m pip install geopandas pyarrow
 ## Step 1: create road_line_tunnel.parquet
 
 ```
-cd /d F:\Project\linz-test3\output\project
+cd /d F:\Project\output\project
 python road_tunnel.py --road road_line.parquet --tunnel tunnel_line.parquet --output road_line_tunnel.parquet
 ```
 
