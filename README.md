@@ -43,6 +43,9 @@ Start here. [download.md](download.md) covers:
 | [label_structure_line.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_line.qml) | QGIS Style file (QML) for structure_line features. | Missing from original repository |
 | [label_structure_poly.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/structure_poly.qml) | QGIS Style file (QML) for structure_poly features. | Missing from original repository |
 | [rock_crop.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_crop.qml) | QGIS Style file (QML) for rock_crop features. | Missing from original repository (Download feature from LDS) |
+| [nz_powerline_centrelines_topo_150k.qml](nz_powerline_centrelines_topo_150k.qml) | QGIS Style file (QML) for rock_crop features. | Missing from original repository (Download feature from LDS) |
+| [rock_crop.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_crop.qml) | QGIS Style file (QML) for rock_crop features. | Missing from original repository (Download feature from LDS) |
+| [rock_crop.qml](https://github.com/MutantKiwi/linz-topographic-vector/blob/main/rock_crop.qml) | QGIS Style file (QML) for rock_crop features. | Missing from original repository (Download feature from LDS) |
 
 ## Typical order of work
 
