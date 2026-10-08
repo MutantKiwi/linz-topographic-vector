@@ -30,7 +30,6 @@ To
 
 <img width="852" height="484" alt="image" src="https://github.com/user-attachments/assets/12467b08-d464-4d6c-81d7-7559b6a31e92" />
 
-
 Removing the joining segment at render time fixes the placement without
 editing the data. The source layer stays as delivered, and the fix is applied
 again automatically whenever the data is refreshed.
@@ -77,10 +76,7 @@ with_variable('d2', line_locate_point($geometry, end_point(@join_seg)),
    type to **LineString / MultiLineString**.
 4. Click Apply.
 
-<img width="666" height="1297" alt="image" src="https://github.com/user-attachments/assets/6b187f89-f1ec-4c2e-8536-fbca94e513f1" />
-
-
-Requires QGIS 3.28 or later (for `geometries_to_array`). Prefer QGIS 4.xx or later
+Requires QGIS 3.28 or later (for `geometries_to_array`).
 
 ## How it works
 
@@ -117,6 +113,90 @@ The only setting is the threshold in `WHEN array_max(@scores) >= 100`.
 - **Lower it** (for example 80) if some joins are not being removed.
 - **Raise it** (for example 140) if lines with ordinary sharp bends are being
   split when they should not be.
+
+## Stacked (two-line) labels: uneven word spacing
+
+The split also drives the two-line labels in `nztopo50_carto_text`, and it
+exposes a spacing problem on them. Examples: "Manginangina / Kauri Walk" shows
+"Kauri" and "Walk" pushed far apart, and "Manginangina / Scenic Reserve" shows
+"ScenicReserve" with no gap.
+
+This is a different problem from the curved names in
+[label_word_spacing.md](label_word_spacing.md), with a different fix.
+
+### Why it happens
+
+1. **A stacked label is one Z-shaped line.** Row 1, a diagonal back to the
+   left, then row 2. The diagonal is the join this expression removes.
+2. **Each row of text goes on one piece.** The label setting "split text lines
+   over parts" puts row 1 on the first piece and row 2 on the second.
+3. **Both pieces are the same length.** Each is as wide as the widest row. For
+   "Manginangina / Kauri Walk" both are 616 m (12.3 mm at 1:50,000).
+4. **The row is forced to fill its piece.** These labels have
+   `charplace = 'StretchWordSpacingToFit'`, so the word gap is stretched or
+   squeezed until the row spans the whole piece. A short row ("Kauri Walk") is
+   pulled apart. A row that renders wider than the piece ("Scenic Reserve")
+   loses its gap.
+
+7,202 stacked labels (`text_bend = 9`) have this setting.
+
+### Fix
+
+Turn off fit-to-line for stacked labels by changing the curved label mode
+override. This replaces the override from `label_word_spacing.md` and keeps
+that fix for curved names (`text_bend = 7`):
+
+```
+CASE
+  WHEN "text_bend" = 9 THEN 'Default'
+  WHEN "charplace" = 'StretchWordSpacingToFit' AND "text_bend" = 7 THEN 'StretchCharacterSpacingToFit'
+  ELSE "charplace"
+END
+```
+
+| `text_bend` | Kind of label | Curved label mode used |
+|---|---|---|
+| 0 | Straight | As in `charplace` |
+| 7 | Curved | Character spacing fitted to the line |
+| 9 | Stacked | Default: no stretching |
+
+To apply it, select `nztopo50_carto_text` in the Layers panel, open Plugins >
+Python Console, and paste:
+
+```python
+layer = iface.activeLayer()
+settings = layer.labeling().settings()
+props = settings.dataDefinedProperties()
+
+key = next(k for k, d in QgsPalLayerSettings.propertyDefinitions().items()
+           if d.name() == 'CurvedLabelMode')
+
+props.setProperty(key, QgsProperty.fromExpression(
+    "CASE "
+    "WHEN \"text_bend\" = 9 THEN 'Default' "
+    "WHEN \"charplace\" = 'StretchWordSpacingToFit' AND \"text_bend\" = 7 THEN 'StretchCharacterSpacingToFit' "
+    "ELSE \"charplace\" END"))
+
+settings.setDataDefinedProperties(props)
+layer.setLabeling(QgsVectorLayerSimpleLabeling(settings))
+layer.triggerRepaint()
+```
+
+Then save the layer style (Style > Save Style) so the change is kept.
+
+### After applying
+
+- **Row alignment.** With stretching off, each row sits at the line anchor
+  instead of filling its piece. Adjust it under Labels > Placement > Line
+  anchor if the short row should be left-aligned or centred.
+- **White bars between words.** These are thought to be the text buffer drawn
+  across the stretched gap, and should go once the gap is normal.
+
+### Status
+
+Not yet confirmed in QGIS 4. `'Default'` is the assumed name of the normal
+(no stretching) curved label mode. If stacked labels do not change after
+running the code, that value is the first thing to check.
 
 ## Limits
 
